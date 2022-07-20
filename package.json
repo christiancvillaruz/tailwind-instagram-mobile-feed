@@ -1,0 +1,15 @@
+{
+  "name": "tailwind-ig-stories",
+  "version": "1.0.0",
+  "description": "instagram stories clone using tailwind css",
+  "main": "index.html",
+  "scripts": {
+    "build": "npx tailwindcss -i ./input.css -o ./dist/output.css",
+    "watch": "npx tailwindcss -i ./input.css -o ./dist/output.css --watch"
+  },
+  "author": "christiancvillaruz",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.1.6"
+  }
+}
